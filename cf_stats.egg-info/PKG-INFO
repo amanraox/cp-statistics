@@ -77,12 +77,12 @@ Requires-Dist: urllib3==1.26.11
    value to your GitHub username.
 
    ```md
-   ![](https://raw.githubusercontent.com/your-github-username/cf-stats/main/output/light_card.svg#gh-dark-mode-only)
-   ![](https://raw.githubusercontent.com/your-github-username/cf-stats/main/output/light_card.svg)
+   ![](https://raw.githubusercontent.com/amanraox/cp-statistics/main/output/light_card.svg#gh-dark-mode-only)
+   ![](https://raw.githubusercontent.com/amanraox/cp-statistics/main/output/light_card.svg)
    ```
    ```md
-   ![](https://raw.githubusercontent.com/sudiptob2/cf-stats/main/output/max_rating.svg)
-   ![](https://raw.githubusercontent.com/sudiptob2/cf-stats/main/output/rating.svg)
+   ![](https://raw.githubusercontent.com/amanraox/cp-statistics/main/output/max_rating.svg)
+   ![](https://raw.githubusercontent.com/amanraox/cp-statistics/main/output/rating.svg)
    ```
 
 
