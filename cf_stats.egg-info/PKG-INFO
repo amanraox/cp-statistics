@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: cf-stats
+Version: 0.0.1
+Summary: Simple codeforces stat card for GitHub readme.
+Home-page: https://github.com/sudiptob2/cf-stats
+Author: Sudipto Baral
+Author-email: sudiptobaral.me@gmail.com
+Classifier: Development Status :: 0 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: GNU General Public License v3.0
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: GitHub :: Codeforces
+Classifier: Topic :: GitHub Readme
+Classifier: Topic :: Stat Card
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: attrs==22.1.0
+Requires-Dist: certifi==2022.6.15
+Requires-Dist: charset-normalizer==2.1.0
+Requires-Dist: idna==3.3
+Requires-Dist: iniconfig==1.1.1
+Requires-Dist: Jinja2==3.1.2
+Requires-Dist: MarkupSafe==2.1.1
+Requires-Dist: mock==4.0.3
+Requires-Dist: packaging==21.3
+Requires-Dist: pluggy==1.0.0
+Requires-Dist: py==1.11.0
+Requires-Dist: pybadges==3.0.0
+Requires-Dist: pydantic==1.9.2
+Requires-Dist: pyparsing==3.0.9
+Requires-Dist: pytest==7.1.2
+Requires-Dist: pytest-mock==3.8.2
+Requires-Dist: python-dateutil==2.8.2
+Requires-Dist: python-dotenv==0.20.0
+Requires-Dist: requests==2.28.1
+Requires-Dist: six==1.16.0
+Requires-Dist: tomli==2.0.1
+Requires-Dist: typing_extensions==4.3.0
+Requires-Dist: urllib3==1.26.11
+
+# Codeforces Stat Visualization
+
+<a href="https://github.com/sudiptob2/cf-stats">
+<img src="https://raw.githubusercontent.com/sudiptob2/cf-stats/main/output/light_card.svg#gh-dark-mode-only" />
+<img src="https://raw.githubusercontent.com/sudiptob2/cf-stats/main/output/light_card.svg" />
+</a>
+<br/>
+<a href="https://github.com/sudiptob2/cf-stats">
+<img src="https://raw.githubusercontent.com/sudiptob2/cf-stats/main/output/max_rating.svg" />
+<img src="https://raw.githubusercontent.com/sudiptob2/cf-stats/main/output/rating.svg" />
+</a>
+
+# Installation
+
+### For step-by-step screenshots go [here](docs/INSTALLATIONSTEPS.md) 
+### Video Demonstration
+  - [Hindi](https://www.youtube.com/watch?v=lPASqH0ZoIc)
+
+1. Star this repository :pray:
+2. Create a copy of this repository by clicking
+   [here](https://github.com/sudiptob2/cf-stats/generate). Note: this is
+   **not** the same as forking a copy because it copies everything fresh,
+   without the huge commit history.
+3. Goto [config/.env.template](config/.env.template) and put your codeforces handle in the `CF_HANDLE` key.
+4. Go to the [Actions Page](../../actions?query=workflow%3A"Generate+Stats+Images") and press "Run Workflow" on the
+   right side of the screen to generate images for the first time.
+    - The images will be automatically regenerated every 24 hours, but they can
+      be regenerated manually by running the workflow this way.
+5. Take a look at the images that have been created in the
+   [`output`](output) folder.
+6. To add your statistics to your GitHub Profile README, copy and paste the
+   following lines of code into your markdown content. Change the `your-github-username`
+   value to your GitHub username.
+
+   ```md
+   ![](https://raw.githubusercontent.com/your-github-username/cf-stats/main/output/light_card.svg#gh-dark-mode-only)
+   ![](https://raw.githubusercontent.com/your-github-username/cf-stats/main/output/light_card.svg)
+   ```
+   ```md
+   ![](https://raw.githubusercontent.com/sudiptob2/cf-stats/main/output/max_rating.svg)
+   ![](https://raw.githubusercontent.com/sudiptob2/cf-stats/main/output/rating.svg)
+   ```
+
+# Contribution guideline
+
+If you like this project and want to improve by adding features, fixing bugs or anything, please follow
+the [contributing guidelines](docs/CONTRIBUTING.md).
+
+# Acknowledgments
+
+### Contributors List
+
+- [Sudipto](https://github.com/sudiptob2)
+- [Nazmul](https://github.com/nazmulweb)
+- [Manish](https://github.com/csemanish12)
+
+### Inspiration
+This project is heavily inspired by [github-stats](https://github.com/jstrieb/github-stats) project
