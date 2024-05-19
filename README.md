@@ -28,16 +28,16 @@
 5. Take a look at the images that have been created in the
    [`output`](output) folder.
 6. To add your statistics to your GitHub Profile README, copy and paste the
-   following lines of code into your markdown content. Change the `your-github-username`
+   following lines of code into your markdown content. Change the `amanloves69`
    value to your GitHub username.
 
    ```md
-   ![](https://raw.githubusercontent.com/amanraox/cp-statistics/main/output/light_card.svg#gh-dark-mode-only)
-   ![](https://raw.githubusercontent.com/amanraox/cp-statistics/main/output/light_card.svg)
+   ![](https://raw.githubusercontent.com/amanloves69/cp-statistics/main/output/light_card.svg#gh-dark-mode-only)
+   ![](https://raw.githubusercontent.com/amanloves69/cp-statistics/main/output/light_card.svg)
    ```
    ```md
-   ![](https://raw.githubusercontent.com/amanraox/cp-statistics/main/output/max_rating.svg)
-   ![](https://raw.githubusercontent.com/amanraox/cp-statistics/main/output/rating.svg)
+   ![](https://raw.githubusercontent.com/amanloves69/cp-statistics/main/output/max_rating.svg)
+   ![](https://raw.githubusercontent.com/amanloves69/cp-statistics/main/output/rating.svg)
    ```
 
 
