@@ -86,18 +86,6 @@ Requires-Dist: urllib3==1.26.11
    ![](https://raw.githubusercontent.com/sudiptob2/cf-stats/main/output/rating.svg)
    ```
 
-# Contribution guideline
 
-If you like this project and want to improve by adding features, fixing bugs or anything, please follow
-the [contributing guidelines](docs/CONTRIBUTING.md).
 
-# Acknowledgments
-
-### Contributors List
-
-- [Sudipto](https://github.com/sudiptob2)
-- [Nazmul](https://github.com/nazmulweb)
-- [Manish](https://github.com/csemanish12)
-
-### Inspiration
-This project is heavily inspired by [github-stats](https://github.com/jstrieb/github-stats) project
+- [amanraox](https://github.com/amanraox)
