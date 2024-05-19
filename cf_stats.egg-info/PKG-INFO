@@ -51,8 +51,8 @@ Requires-Dist: urllib3==1.26.11
 </a>
 <br/>
 <a href="https://github.com/sudiptob2/cf-stats">
-<img src="https://raw.githubusercontent.com/amanraox/cp-statistics/main/output/max_rating.svg" />
-<img src="https://raw.githubusercontent.com/amanraox/cp-statistics/main/output/rating.svg" />
+<img src="https://raw.githubusercontent.com/amanraox/cp-statistics/blob/main/output/max_rating.svg" />
+<img src="https://raw.githubusercontent.com/amanraox/cp-statistics/blob/main/output/rating.svg" />
 </a>
 
 # Installation
