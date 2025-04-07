@@ -1,4 +1,4 @@
-Metadata-Version: 2.2
+Metadata-Version: 2.4
 Name: cf-stats
 Version: 0.0.1
 Summary: Simple codeforces stat card for GitHub readme.
@@ -42,6 +42,7 @@ Requires-Dist: six==1.16.0
 Requires-Dist: tomli==2.0.1
 Requires-Dist: typing_extensions==4.3.0
 Requires-Dist: urllib3==1.26.11
+Dynamic: license-file
 
 # Codeforces Stat Visualization
 
